@@ -12,9 +12,6 @@ This egg can be installed by checking out the source::
 
     $ sudo python setup.py install
 
-Or from Pypi::
-
-    $ easy_install -U aweber_api
 
 Usage
 =====
@@ -56,7 +53,7 @@ Full Pylons example
 
 Here is a simple Pylons example that uses the AWeber API Python Library to get
 a request token, have it authorized, and then print some basic stats about the
-web forms in that user's first list::
+web forms in that user's lists::
 
     from pylons import session, request, tmpl_context as c
     from pylons.controllers.util import redirect 
