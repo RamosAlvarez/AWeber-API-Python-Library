@@ -5,6 +5,7 @@ setup(
     version='1.0.0',
     packages=find_packages(exclude=['tests']),
     test_suite='nose.collector',
+    url='http://labs.aweber.com/',
     include_package_data=True
 )
 
