@@ -12,6 +12,11 @@ This egg can be installed by checking out the source::
 
     $ sudo python setup.py install
 
+Or can be installed using easy_install::
+
+    $ easy_install aweber_api
+
+
 
 Usage
 =====
